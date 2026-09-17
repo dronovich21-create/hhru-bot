@@ -1,0 +1,2 @@
+"""HH.ru assistant application."""
+

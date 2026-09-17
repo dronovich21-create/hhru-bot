@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "HH.ru помощник — локальное подключение",
+  "version": "0.2.4",
+  "description": "Подключает приложение HH.ru к отдельной вкладке обычного Chrome.",
+  "permissions": ["tabs", "scripting", "storage", "alarms"],
+  "host_permissions": ["https://hh.ru/*", "https://*.hh.ru/*", "http://127.0.0.1:8765/*"],
+  "background": {"service_worker": "background.js"},
+  "action": {"default_popup": "popup.html"}
+}
